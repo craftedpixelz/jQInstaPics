@@ -1,0 +1,11 @@
+#instagram {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+#instagram li {
+	list-style:none;
+	float:left;
+	margin:0 20px 20px 0;
+}
