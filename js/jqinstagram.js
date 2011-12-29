@@ -1,5 +1,5 @@
 /*
- * jqinstagram
+ * jQInstaPics
  * Created by: Abid Din - http://craftedpixelz.co.uk
  * Version: 1.0
  * Copyright: Crafted Pixelz
@@ -8,7 +8,7 @@
 */
  
 (function ($) {
-    $.fn.jqinstagram = function (options) {
+    $.fn.jqinstapics = function (options) {
 
         // Defaults
         var defaults = {
