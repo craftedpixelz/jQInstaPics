@@ -48,4 +48,5 @@ The Instagram API requires 2 pieces of information to display photos from a user
 ## License ##
 
 Copyright (c) 2011 Crafted Pixelz
+
 Licensed under the MIT license
