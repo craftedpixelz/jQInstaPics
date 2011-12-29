@@ -1,9 +1,9 @@
-# jqInstagram - Showcase your Instagram photos using jQuery #
+# jQInstaPics - Showcase your Instagram photos using jQuery #
 
 
 ## About ##
 
-jqInstagram is a simple jQuery plugin that enables you to display your latest Instagram photos on your website or blog.
+jQInstaPics is a simple jQuery plugin that enables you to display your latest Instagram photos on your website or blog.
 
 ##Usage ##
 
@@ -32,10 +32,10 @@ These are the most basic styles necessary to create a horizontal list of images.
 ### Scripts/Initialisation: ###
 
     <script src="http//code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script src="jqinstagram.js"></script>
+    <script src="jqinstapics.js"></script>
     
     <script>
-    $("#instagram").jqinstagram({
+    $("#instagram").jqinstapics({
       "user_id": "Your User ID",
       "access_token": "Your Access Token",
       "count": 5
