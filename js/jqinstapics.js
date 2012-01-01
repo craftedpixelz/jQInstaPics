@@ -15,7 +15,7 @@
             "user_id": null,
             "access_token": null,
             "count": 10
-        };
+        };                      
 
         var o = $.extend(defaults, options);
 
@@ -24,16 +24,16 @@
           // Vars
           var elem = $(this),
               url = "https://api.instagram.com/v1/users/" + o.user_id + "/media/recent?access_token=" + o.access_token + "&count=" + o.count + "&callback=?";
-          		
+           	
             // Get the images	
-            $.getJSON(url, function (data) {
+            $.getJSON(url, function(data){
                 $.each(data.data, function (i, val) {
                     var li = $("<li/>").appendTo(elem),
                         a = $("<a/>", {"href": val.link, "target": "_blank"}).appendTo(li),
                         img = $("<img/>", {"src": val.images.thumbnail.url}).appendTo(a);
                     
-                    if(val.caption){
-                        img.attr("title", val.caption.text);
+                    if (val.caption){
+                        a.attr("title", val.caption.text);
                     }
                 });
             });
