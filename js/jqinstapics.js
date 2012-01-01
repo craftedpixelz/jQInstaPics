@@ -4,7 +4,7 @@
  * Version: 1.0
  * Copyright: Crafted Pixelz
  * License: MIT license
- * Updated: 30th December 2011
+ * Updated: 1st January 2012
 */
  
 (function ($) {
