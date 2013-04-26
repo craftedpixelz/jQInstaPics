@@ -4,7 +4,7 @@
  * Version: 1.0
  * Copyright: Crafted Pixelz
  * License: MIT license
- * Updated: 1st January 2012
+ * Updated: 26th April 2013
 */
  
 (function ($) {
@@ -30,7 +30,7 @@
                 $.each(data.data, function (i, val) {
                     var li = $("<li/>").appendTo(elem),
                         a = $("<a/>", {"href": val.link, "target": "_blank"}).appendTo(li),
-                        img = $("<img/>", {"src": val.images.thumbnail.url}).appendTo(a);
+                        img = $("<img/>", {"src": val.images.thumbnail}).appendTo(a);
                     
                     if (val.caption){
                         a.attr("title", val.caption.text);
