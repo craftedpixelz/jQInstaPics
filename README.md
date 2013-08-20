@@ -38,12 +38,13 @@ These are the most basic styles necessary to create a horizontal list of images.
     $("#instagram").jqinstapics({
       "user_id": "Your User ID",
       "access_token": "Your Access Token",
-      "count": 5
+      "count": 5,
+      "size": "thumbnail"
     });
     </script>
 
 The Instagram API requires 2 pieces of information to display photos from a user feed. These are the User ID and an Access Token. How do you get these, you say? Don't worry, I've created a nifty tool that will allow you to obtain both (see website docs).
-
+Version 1.1: Size will determine what size the image will be. This can be one of three options from the Instagram API: low_resolution(306px-306px), thumbnail(150px-150px), standard_resoltuion (612px-612px). The default is set to thumbnail, and will be chosen if left blank.
 
 ## License ##
 
