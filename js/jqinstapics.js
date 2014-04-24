@@ -30,7 +30,7 @@
                 $.each(data.data, function (i, val) {
                     var li = $("<li/>").appendTo(elem),
                         a = $("<a/>", {"href": val.link, "target": "_blank"}).appendTo(li),
-                        img = $("<img/>", {"src": val.images.thumbnail.url}).appendTo(a);
+                        img = $("<img/>", {"src": val.images.thumbnail.url.replace("http://","//")}).appendTo(a);
                     
                     if (val.caption){
                         a.attr("title", val.caption.text);
